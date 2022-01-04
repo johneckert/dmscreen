@@ -55,14 +55,6 @@ html, body {
   margin: 0;
 }
 
-
-.component {
-  width: 20%;
-  height: 20%;
-  border: 2px black;
-  background-color: floralwhite;
-}
-
 .header {
   align-self: flex-start;
   background-color: pink;
@@ -71,10 +63,32 @@ html, body {
 .screen {
   height: 100%;
   background-color: darkslategray;
+  display: flex;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   background-color: pink;
+}
+
+/* COMPONENT STYLES */
+.component {
+  width: 20%;
+  border: 2px black;
+  background-color: floralwhite;
+  margin: 0 1%;
+  padding: 0.5% 1%;
+  flex: 1;
+}
+
+.component header {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.component tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
