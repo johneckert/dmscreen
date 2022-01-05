@@ -1,7 +1,7 @@
 function Obscurity() {
     //should make up own descriptions
     return (
-        <div className="component">
+        <div className="component double">
             <header>Obscurity</header>
             <table>
                 <tr>

@@ -1,7 +1,7 @@
 function Exhaustion() {
     //should make up own descriptions
     return (
-        <div className="component">
+        <div className="component single">
             <header>Exhaustion</header>
             <table>
                 <tr>

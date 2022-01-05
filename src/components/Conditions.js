@@ -1,6 +1,6 @@
 function Conditions() {
     return (
-        <div className="component">
+        <div className="component single">
             <header>Conditions</header>
             <table>
                 <tr>

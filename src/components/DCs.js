@@ -1,7 +1,7 @@
 function DCs() {
     //should make up own descriptions
     return (
-        <div className="component">
+        <div className="component single">
             <header>Difficulty Check (DC)</header>
             <table>
                 <tr>
