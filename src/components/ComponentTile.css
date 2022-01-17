@@ -1,0 +1,46 @@
+/* COMPONENT TILE STYLES */
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .component {
+    width: 15rem;
+    max-height: 15rem;
+    border: 2px black;
+    background-color: floralwhite;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    padding: 0.5%;
+    overflow-y: scroll;
+    border-radius: 5%;
+  }
+
+  .component > header {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+
+  .component > img {
+    width: 100%;
+  }
+}
