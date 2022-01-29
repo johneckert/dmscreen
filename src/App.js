@@ -1,5 +1,5 @@
 import "./App.css";
-import ComponentTile from "./components/ComponentTile.js";
+import ComponentTile from "./UI/ComponentTile.js";
 
 function App() {
   const tiles = [
