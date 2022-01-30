@@ -1,4 +1,4 @@
-import "./ComponentTile.css";
+import "./ClosedTile.css";
 //TODO: dynamiclly load images
 
 function ClosedTile(props) {

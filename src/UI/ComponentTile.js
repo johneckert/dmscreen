@@ -1,7 +1,6 @@
 import { useState, Fragment } from 'react';
 import ClosedTile from './ClosedTile'
 import ModalWrapper from './ModalWrapper';
-import "./ComponentTile.css";
 import dragon from "./tileImages/dragon.png";
 //TODO: dynamiclly load images
 

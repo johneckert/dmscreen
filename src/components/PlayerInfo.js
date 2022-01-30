@@ -1,11 +1,8 @@
-import "./Component.css";
+import "./Components.css";
 
 function PlayerInfo() {
   return (
-    <section className="component double closed">
-      <header>PlayerInfo</header>
-      <div></div>
-    </section>
+    <div className="component-body"></div>
   );
 }
 
