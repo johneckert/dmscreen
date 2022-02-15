@@ -3,7 +3,7 @@ import "./Components.css";
 function DCs() {
   //should make up own descriptions
   return (
-    <table className="component-body">
+    <table className="component-body dc">
       <tr>
         <td>Very Easy</td>
         <td>5</td>

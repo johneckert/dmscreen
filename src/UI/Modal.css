@@ -21,8 +21,9 @@
     position: fixed; 
     display: block;
     background-color: #ffffff;
-    border-radius: 2%;
+    border-radius: 0.5rem;
     z-index:3;
+    overflow-y: scroll;
 }
 
 .modal h1 {
